@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>MarkdownDeepNext.Full</id>
+        <version>2.0.0.0</version>
+        <title>MarkdownDeepNext .NET and JavaScript Editions</title>
+        <authors>Eonasdan</authors>
+        <owners>Eonasdan</owners>
+        <licenseUrl>https://github.com/Eonasdan/MarkdownDeepNext/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Eonasdan/MarkdownDeepNext</projectUrl>
+        <iconUrl>http://www.eonasdan.com/assets/nugeticon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>MarkdownDeepNext is a high performance .NET Markdown engine along with a 100% compatible JavaScript implementation for client side use.</description>
+        <summary>MarkdownDeepNext is a fork of the high performance MarkdownDeep.NET Markdown engine along with a 100% compatible JavaScript implementation for client side use.  It supports PHPMarkdownExtra extensions</summary>
+        <tags>Markdown MarkdownExtra MarkdownDeep MarkdownDeepNext JavaScript jQuery Plugin</tags>
+        <dependencies>
+            <dependency id="MarkdownDeepNext.NET" version="2.0.1" />
+            <dependency id="MarkdownDeepNext.JS" version="2.0.1" />
+        </dependencies>
+    </metadata>
+    <files />
+</package>

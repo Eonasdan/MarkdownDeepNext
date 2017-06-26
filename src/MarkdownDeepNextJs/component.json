@@ -1,0 +1,9 @@
+{
+    "name": "eonasdan-markdowndeepnext",
+    "version": "2.0.1",
+    "main": "dist/js/markdownDeep.min.js",
+    "dependencies": {
+        "font-awesome": ">=4.6.1",
+        "jquery": ">=2.2.3"
+    }
+}

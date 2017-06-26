@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+		<id>MarkdownDeepNext.JS</id>
+		<title>MarkdownDeepNext JavaScript Edition</title>
+    <version>2.0.0.0</version>
+    <authors>Eonasdan</authors>
+    <owners>Eonasdan</owners>
+    <licenseUrl>https://github.com/Eonasdan/MarkdownDeepNext/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Eonasdan/MarkdownDeepNext</projectUrl>
+    <iconUrl>http://www.eonasdan.com/assets/nugeticon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>
+      MarkdownDeepNext is a fork of the high performance MarkdownDeep Markdown processor.
+
+      MarkdownDeep has been a been abandon. I've cleaned it up and and made sure it works with GitHub Flavored Markdown.
+      
+      MarkdownDeep is a high performance .NET Markdown engine along with a 100% compatible JavaScript implementation for client side use.  It supports PHPMarkdownExtra extensions, safe mode and more.
+
+      Package includes:
+      * JavaScript Markdown Translator
+      * jQuery editor with real-time preview, toolbar and syntax reference.
+    </summary>
+		<description>
+			MarkdownDeepNext's JavaScript implementation for client side use.
+		</description>
+		<tags>Markdown MarkdownExtra MarkdownDeep MarkdownDeepNext JavaScript jQuery Plugin</tags>
+	</metadata>
+	<files>
+    <file src="..\..\dist\js\markdowndeep.js" target="Content\Scripts\vendor\MarkdownDeep" />
+		<file src="..\..\dist\js\markdowndeep.min.js" target="Content\Scripts\vendor\MarkdownDeep" />
+    <file src="..\..\dist\css\markdowndeep.css" target="Content\content\vendor\MarkdownDeep" />
+    <file src="..\..\dist\css\markdowndeep.min.css" target="Content\content\vendor\MarkdownDeep" />
+	</files>
+</package>

@@ -1,0 +1,41 @@
+/*! version : 2.0.1
+ =========================================================
+ MarkdownDeepNextjs
+ https://github.com/Eonasdan/MarkdownDeepNext
+ Copyright (c) 2015 Jonathan Peterson
+ =========================================================
+*/
+.mdd_toolbar_wrap {
+  width: 100%;
+}
+.mdd_toolbar {
+  padding: 5px;
+  height: 20px;
+}
+.mdd_toolbar ul {
+  margin: 0;
+  padding: 0;
+}
+.mdd_toolbar ul li {
+  float: left;
+  padding: 0 3px;
+  list-style: none;
+}
+.mdd_toolbar ul li i {
+  cursor: pointer;
+}
+span.mdd_sep {
+  width: 5px;
+  height: 20px;
+  display: block;
+  border-left: solid 1px #808080;
+  margin-left: 5px;
+}
+.mdd_editor_wrap {
+  padding-right: 8px;
+}
+textarea.mdd_editor {
+  width: 100%;
+  margin: 0;
+  padding: 3px;
+}

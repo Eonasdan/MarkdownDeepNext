@@ -1,0 +1,34 @@
+{
+    "name": "eonasdan-markdowndeepnext",
+    "version": "2.0.1",
+    "main": [
+        "dist/css/markdownDeep.min.css",
+        "dist/js/markdownDeep.min.js"
+    ],
+    "dependencies": {
+        "font-awesome": ">=4.6.1",
+        "jquery": ">=2.2.3"
+    },
+    "homepage": "https://github.com/Eonasdan/MarkdownDeepNext",
+    "authors": [
+        "Eonasdan"
+    ],
+    "description": "bootstrap3 datetimepicker",
+    "keywords": [
+        "Markdown",
+        "MarkdownExtra",
+        "MarkdownDeep",
+        "MarkdownDeepNext",
+        "JavaScript",
+        "jQuery plugin"
+    ],
+    "license": "MIT",
+    "private": false,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
