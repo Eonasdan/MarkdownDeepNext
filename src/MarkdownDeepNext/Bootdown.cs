@@ -412,7 +412,7 @@ namespace MarkdownDeep
             //Create an image object from the uploaded file
             try
             {
-                var img = System.Drawing.Image.FromFile(str);
+                var img = new ImageSharp.Image (str);
                 width = img.Width;
                 height = img.Height;
 
