@@ -9,7 +9,7 @@
     "description": "MarkdownDeepNext's JavaScript implementation for client side use.",
     "dependencies": {
         "font-awesome": "4.6.1",
-        "jquery": "2.2.3"
+        "jquery": "3.5.0"
     },
     "devDependencies": {
         "grunt": "0.4.5",
